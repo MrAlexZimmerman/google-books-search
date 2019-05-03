@@ -14,15 +14,15 @@ class Books extends Component {
         bookSearch: ""
     };
 
-    componentDidMount (){
+    componentDidMount() {
         API.getSavedBooks()
-                .then(res => {
-                    this.setState({
-                        savedBooks: res.data
-                    })
-
+            .then(res => {
+                this.setState({
+                    savedBooks: res.data
                 })
-            
+
+            })
+
     }
 
 
@@ -76,7 +76,7 @@ class Books extends Component {
                     console.log("Length", this.state.savedBooks.length)
                 })
             )
-    }    
+    }
 
     handleDelete = event => {
         const bookIndex = event.target.attributes.getNamedItem("data-index").value;
@@ -84,10 +84,10 @@ class Books extends Component {
         console.log(deleteBook._id)
 
         API.deleteBook(deleteBook._id).then(
-            
+
             window.location.reload()
         )
-        
+
     }
 
 
@@ -107,7 +107,7 @@ class Books extends Component {
                         <SearchResult>
                             {this.state.results.length ? (
 
-                                this.state.results.map( (book, i) => {
+                                this.state.results.map((book, i) => {
                                     return (
                                         <BookItemCard
                                             key={book.id}
