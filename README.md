@@ -3,7 +3,7 @@
 <b><u>Summary:</u></b>
 This app is built to search books using the google book api. More information on google book api can be located here: <a href="https://developers.google.com/books/" target="_blank">click here</a>. 
 
-<a href="https://google-search-book.herokuapp.com" target="_blank">Click me to check the app out!</a>
+<a href="https://google-search-react2019.herokuapp.com/" target="_blank">Click me to check the app out!</a>
 <hr>
 
 <h2>Technology Used:</h2>
