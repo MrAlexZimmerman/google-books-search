@@ -1,29 +1,25 @@
-# Create React Express App
+# Google-Search-Book
 
-## About This Boilerplate
+<b><u>Summary:</u></b>
+This app is built to search books using the google book api. More information on google book api can be located here: <a href="https://developers.google.com/books/" target="_blank">click here</a>. This app is our first group assignment (Samuel, Namita, Sophie, and Kevin) using the MERN (Mongodb, Express, React, and Node) platform. 
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+<a href="https://google-search-book.herokuapp.com" target="_blank">Click me to check the app out!</a>
+<hr>
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+<h2>Technology Used:</h2>
+<li><b>M</b>ongoDB</li>
+<li><b>E</b>xpress</li>
+<li><b>R</b>eact</li>
+<li><b>N</b>ode</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>JavaScript</li>
+<br></br>
 
-## Starting the app locally
+<hr>
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
-
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+<h2><center>Landing Page</center></h2>
+<center><img src="./create-react-express/client/public/images/1.png" width="350px"/></center><h2><center>Search Section</center></h2>
+<center><img src="./create-react-express/client/public/images/2.png" width="350px"/></center><h2><center>Saved Page</center></h2>
+<center><img src="./create-react-express/client/public/images/3.png" width="350px"/></center>
